@@ -25,7 +25,7 @@ Ce script vérifie l'utilisation de la RAM sur la machine.
 ./check_ram.sh -w 80 -c 90
 ```
 
-### 2. mariadb_status.sh
+### 2. `mariadb_status.sh`
 
 **Description**  
 
@@ -44,10 +44,11 @@ Ce script vérifie si le service MariaDB est actif en utilisant systemctl status
 ```bash
 ./mariadb_status.sh
 ```
-**Auteur**  
+## Auteur  
 **Nom** : Johan Cherel  
 **Date de création** : 21/12/2023  
 **Version** : 1.0  
-**Notes** :  
+
+## Notes :  
 Ces sondes ont été développées et testées sur Debian 12.
 N'hésitez pas à contribuer, signaler des problèmes ou proposer des améliorations !
